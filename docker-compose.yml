@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  web:
+      build: .
+      ports:
+          - "8000:80"
+      depends_on:
+          - db
+  db:
+    image: microsoft/mssql-server-linux
+    hostname: 'db'
+    environment:
+      - SA_PASSWORD=yourStrong(!)Password
+      - ACCEPT_EULA=Y
+    ports:
+      - "5433:1433"
