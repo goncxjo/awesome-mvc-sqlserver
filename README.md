@@ -5,6 +5,7 @@
 In this tutorial, you will be able to create a simple ASP.NET Core MVC app working with Docker. But before starting code, let’s talk about these technologies: I’m sure, you have listened about .NET Framework, but what about .NET Core? What about Docker? Well, it’s time to put all on site.
 
 Requirements:
+- [.NET Core Runtime](https://dotnet.microsoft.com/download/thank-you/dotnet-runtime-2.2.3-windows-hosting-bundle-installer)
 - [Docker](https://docs.docker.com/install/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 - [Azure Data Studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download?view=sql-server-2017) for SQL Server database management
